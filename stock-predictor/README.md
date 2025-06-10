@@ -17,5 +17,7 @@ This project explores using transformer-based models to predict stock trends fro
 
 
 🙌 Acknowledgments
+
 Created by 
+
 Part of the AI Hackathon May 2025 at Chandler-Gilbert Community College 🎓
