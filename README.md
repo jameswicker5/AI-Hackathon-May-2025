@@ -25,7 +25,8 @@ Each folder contains its own README and setup instructions. Please navigate into
 
 # Contributors
 
-
+- [@jameswicker5](https://github.com/jameswicker5) – Organizer & Core Developer
+- [@Niko-Drossos](https://github.com/Niko-Drossos) – AI Stock Predictor Contributor
 
 ------------------------------------
 
