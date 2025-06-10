@@ -75,6 +75,6 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 🙌 Acknowledgments
 
-Created by @Niko-Drossos
+Created by [@Niko-Drossos]([https://github.com/Niko-Drossos])
 
 Part of the AI Hackathon May 2025 at Chandler-Gilbert Community College 🎓
