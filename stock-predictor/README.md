@@ -1,6 +1,6 @@
 # 📈 AI Stock Predictor
 
-![Stock Chart](https://img.icons8.com/emoji/48/bar-chart-emoji.png)
+![AI Stock Predictor](./stock.png)
 
 This project explores using transformer-based models to predict stock trends from historical data. Developed during the **AI Hackathon – May 2025**, the notebook demonstrates a fine-tuning pipeline with Hugging Face Transformers and financial datasets.
 
