@@ -28,4 +28,9 @@ An AI-powered Dungeons & Dragons experience where players interact with a Dungeo
    
    python tkinter_ai_dungeon_Lm_studio_version.py
 
-4. Start your role-playing adventure!
+3. Start your role-playing adventure!
+
+
+🙌 Acknowledgments
+Created by 
+Part of the AI Hackathon May 2025 at Chandler-Gilbert Community College 🎓
