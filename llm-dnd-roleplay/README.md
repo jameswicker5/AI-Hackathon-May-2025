@@ -21,8 +21,11 @@ An AI-powered Dungeons & Dragons experience where players interact with a Dungeo
    pip install transformers torch pydantic openai
 
 2. Launch the Game
+   
    python Ai_dungeon_transformers_version.py
-    or
+   
+    or with LM Studio API
+   
    python tkinter_ai_dungeon_Lm_studio_version.py
 
-3. Start your role-playing adventure!
+4. Start your role-playing adventure!
