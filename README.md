@@ -1,6 +1,8 @@
 # AI Hackathon - May 2025
 
-Chandler Gilbert Community College 1st AI Hackathon -- Project organized and maintained by [@jameswicker5](https://github.com/jameswicker5)
+Chandler Gilbert Community College 1st AI Hackathon
+
+Event organized and maintained by [@jameswicker5](https://github.com/jameswicker5)
 
 This repository contains all the projects developed during the AI Hackathon held in May 2025. 
 
