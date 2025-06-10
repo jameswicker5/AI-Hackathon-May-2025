@@ -3,6 +3,7 @@
 Chandler Gilbert Community College 1st AI Hackathon
 
 This repository contains all the projects developed during the AI Hackathon held in May 2025. 
+
 Each subfolder represents a unique AI-powered solution built by individuals within the Maricopa Community College Organization.
 
 ------------------------------------
