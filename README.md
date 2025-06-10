@@ -13,7 +13,7 @@ Each subfolder represents a unique AI-powered solution built by individuals with
 ## 📁 Project Directories
 
 - [`ai-study-buddy`](./ai-study-buddy): An OCR-powered tool that creates quizzes from scanned materials.
-- [`llm-dnd-roleplay-game`](./llm-dnd-roleplay-game): A text-based adventure role-playing game powered by a local language model.
+- [`llm-dnd-roleplay`](./llm-dnd-roleplay): A text-based adventure role-playing game powered by a local language model.
 - [`mindscribe`](./mindscribe): A transcription and summarization assistant for medical practitioners.
 - [`stock-predictor`](./stock-predictor): A machine learning model that analyzes trends to predict stock performance.
 
