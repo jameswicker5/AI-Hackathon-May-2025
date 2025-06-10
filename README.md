@@ -14,15 +14,9 @@ Each subfolder represents a unique AI-powered solution built by individuals with
 - [`mindscribe`](./mindscribe): A transcription and summarization assistant for medical practitioners.
 - [`stock-predictor`](./stock-predictor): A machine learning model that analyzes trends to predict stock performance.
 
-# Descriptions
+## 🛠️ Setup Instructions
 
-AI Study Buddy -- 
-
-LLM DND Role Play --
-
-MindScribe --
-
-Stock Predictor --
+Each folder contains its own README and setup instructions. Please navigate into the project you're interested in for more information.
 
 ------------------------------------
 
@@ -32,7 +26,9 @@ Stock Predictor --
 
 ------------------------------------
 
-# License
+## 👥 Credits
+
+Organized by students and faculty from CGCC's AI Program.
 
 
 ------------------------------------
