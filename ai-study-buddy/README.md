@@ -41,11 +41,7 @@ study-buddy/
 - npm
 
 ### Backend Setup
-'''text
-cd backend
-npm install
-node server.js
-'''
+<pre> ```bash cd backend npm install node server.js ``` </pre>
 
 
 
