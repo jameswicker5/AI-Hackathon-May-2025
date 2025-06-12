@@ -52,6 +52,6 @@ node server.js
 
 🙌 Acknowledgments
 
-Created by | Johann Kruse [@krusejohann](https://github.com/krusejohann) |
+Created by [@krusejohann](https://github.com/krusejohann) 
 
 Part of the AI Hackathon May 2025 at Chandler-Gilbert Community College 🎓
