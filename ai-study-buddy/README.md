@@ -51,5 +51,7 @@ node server.js
 
 
 🙌 Acknowledgments
+
 Created by 
+
 Part of the AI Hackathon May 2025 at Chandler-Gilbert Community College 🎓
