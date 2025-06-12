@@ -27,6 +27,7 @@ Each folder contains its own README and setup instructions. Please navigate into
 
 - [@jameswicker5](https://github.com/jameswicker5) – Organizer 
 - [@Niko-Drossos](https://github.com/Niko-Drossos) – Mindscribe Core Developer
+- [@krusejohann](https://github.com/krusejohann) - AI Study Buddy Core Developer
 
 ------------------------------------
 
