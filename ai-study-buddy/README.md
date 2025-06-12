@@ -15,7 +15,20 @@ Study Buddy is a web-based AI-powered tool designed to help students learn more 
 ---
 
 ## 📁 Project Structure
-<pre> ```text study-buddy/ ├── frontend/ │ ├── index.html │ ├── styles.css │ └── app.js ├── backend/ │ ├── server.js │ ├── package.json │ ├── package-lock.json │ └── saved_texts/ ├── .gitignore └── README.md ``` </pre>
+```text
+study-buddy/
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   └── app.js
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── saved_texts/
+├── .gitignore
+└── README.md
+```
 
 
 ---
