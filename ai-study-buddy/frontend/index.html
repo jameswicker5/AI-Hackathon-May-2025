@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Buddy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Study Buddy</h1>
+
+      <div class="input-sections">
+        <!-- OCR Section -->
+        <div class="input-section">
+          <h2><i class="fas fa-file-image"></i> OCR from Image</h2>
+          <div class="input-group">
+            <label for="fileInput" class="icon-button" title="Upload Document">
+              <i class="fas fa-file-upload"></i>
+            </label>
+            <input
+              type="file"
+              id="fileInput"
+              accept="image/*"
+              onchange="handleFileUpload(event)"
+              style="display: none"
+            />
+          </div>
+        </div>
+
+        <!-- Audio Recording Section -->
+        <div class="input-section">
+          <h2><i class="fas fa-microphone"></i> Audio Recording</h2>
+          <div class="input-group">
+            <button
+              id="micButton"
+              class="icon-button"
+              title="Record Audio"
+              onclick="handleAudioUpload()"
+            >
+              <i class="fas fa-microphone"></i>
+            </button>
+          </div>
+          <div
+            id="recordingControls"
+            class="recording-controls"
+            style="display: none"
+          >
+            <span id="recordingStatus">Recording...</span>
+            <button
+              id="stopRecording"
+              class="stop-button"
+              onclick="stopRecording()"
+            >
+              <i class="fas fa-stop"></i> Stop
+            </button>
+          </div>
+          <div id="transcriptContainer" style="display: none; margin-top: 10px">
+            <div id="transcriptText" class="transcript-text"></div>
+          </div>
+        </div>
+
+        <!-- URL Input Section -->
+        <div class="input-section">
+          <h2><i class="fas fa-link"></i> URL Input</h2>
+          <div class="input-group">
+            <input
+              type="text"
+              id="urlInput"
+              placeholder="Enter URL or YouTube link"
+            />
+            <button onclick="handleUrlInput()">Add</button>
+          </div>
+          <div id="urlList" class="url-list"></div>
+        </div>
+
+        <!-- Saved Texts Section -->
+        <div class="input-section">
+          <h2><i class="fas fa-folder"></i> Saved Texts</h2>
+          <div class="saved-texts-container">
+            <div class="saved-texts-header">
+              <select id="savedTextsDropdown" onchange="loadSavedText()">
+                <option value="">Select a saved text...</option>
+              </select>
+              <button
+                id="deleteSavedText"
+                class="delete-button"
+                onclick="deleteSavedText()"
+                style="display: none"
+                title="Delete selected file"
+              >
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+            <div id="savedTextContent" class="saved-text-content"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button onclick="generateNotes()">Generate Notes</button>
+        <div class="source-selection">
+          <label>
+            <input type="checkbox" name="noteSource" value="ocr" /> OCR Text
+          </label>
+          <label>
+            <input type="checkbox" name="noteSource" value="scrape" /> Web
+            Scraping
+          </label>
+          <label>
+            <input type="checkbox" name="noteSource" value="youtube" /> YouTube
+            Transcript
+          </label>
+          <label>
+            <input type="checkbox" name="noteSource" value="audio" /> Audio
+            Transcript
+          </label>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button onclick="generateQuiz()">Generate Quiz</button>
+        <div class="source-selection">
+          <label>
+            <input type="checkbox" name="quizSource" value="ocr" /> OCR Text
+          </label>
+          <label>
+            <input type="checkbox" name="quizSource" value="scrape" /> Web
+            Scraping
+          </label>
+          <label>
+            <input type="checkbox" name="quizSource" value="youtube" /> YouTube
+            Transcript
+          </label>
+          <label>
+            <input type="checkbox" name="quizSource" value="audio" /> Audio
+            Transcript
+          </label>
+        </div>
+      </div>
+
+      <div id="aiOutput"></div>
+    </div>
+  </body>
+</html>
