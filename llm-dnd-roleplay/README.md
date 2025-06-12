@@ -33,6 +33,6 @@ An AI-powered Dungeons & Dragons experience where players interact with a Dungeo
 
 🙌 Acknowledgments
 
-Created by 
+Created by [@smarttree695](https://github.com/smarttree695)
 
 Part of the AI Hackathon May 2025 at Chandler-Gilbert Community College 🎓
